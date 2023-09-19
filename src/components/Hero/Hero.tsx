@@ -52,42 +52,42 @@ const Hero = () =>
                 </div>
 
                 <div className='flex justify-center items-center'>
-                    <Link href="/category/pizza" 
+                    <Link href="/menu/pizza" 
                     data-aos="fade-down"
                     data-aos-duration="1000" 
-                    className='p-2 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Delicious Pizza</span> 
-                        <Image src={pizza} alt='' className=''  width={45} height={45}/>
+                        <Image src={pizza} alt='' className=''  width={40} height={40}/>
                     </Link>
-                    <Link href="/category/pasta" 
+                    <Link href="/menu/pasta" 
                     data-aos="fade-up"
                     data-aos-duration="1000" 
-                    className='p-2 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Juicy Burger</span>
-                        <Image src={burger} alt='' className=''  width={45} height={45}/>
+                        <Image src={burger} alt='' className=''  width={40} height={40}/>
                     </Link>
-                    <Link href="/category/burger" 
+                    <Link href="/menu/burger" 
                     data-aos="fade-down"
                     data-aos-duration="1000" 
-                    className='p-2 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Cheesy Pasta</span>                  
-                        <Image src={pasta} alt='' className=''  width={45} height={45}/>
+                        <Image src={pasta} alt='' className=''  width={40} height={40}/>
                     </Link>
-                    <Link href="/category/coffee" 
+                    <Link href="/menu/coffee" 
                     data-aos="fade-up"
                     data-aos-duration="1000" 
-                    className='p-2 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Cold Coffee</span>                  
-                        <Image src={coffee} alt='' className=''  width={45} height={45}/>
+                        <Image src={coffee} alt='' className=''  width={40} height={40}/>
                     </Link>
 
-                    <div 
+                    <Link href="#book-table"
                     data-aos="fade-down"
                     data-aos-duration="1000" 
-                    className='p-2 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Book Table</span>                  
-                        <Image src={book} alt='' className=''  width={45} height={45}/>
-                    </div>
+                        <Image src={book} alt='' className=''  width={40} height={40}/>
+                    </Link>
 
 
 
@@ -122,7 +122,7 @@ const Hero = () =>
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <p className=' text-sm font-semibold '>10:00AM-12:00PM</p>
+                    <p className=' text-sm font-semibold '>10:00AM-11:00PM</p>
                     </div>
                 </motion.div>
             </div>

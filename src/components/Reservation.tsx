@@ -57,7 +57,7 @@ const Reservation = () =>
 
   return (
     <ContainerBox>
-        <div className="container h-screen mx-auto p-4 flex flex-col justify-center items-center text-center">
+        <div id='book-table' className="container h-screen mx-auto p-4 flex flex-col justify-center items-center text-center">
             <div 
             data-aos="zoom-in"
             data-aos-duration="1500">
