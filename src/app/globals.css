@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+.tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            max-width: 300px; /* Adjust the width as needed */
+            background-color: #E11D48; /* Rose color */
+            color: #fff;
+            text-align: center;
+            border-radius: 15px; /* Adjust the border radius to control the tooltip's shape */
+            padding: 1rem;
+            position: absolute;
+            z-index: 1000;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+        }
+
+        .tooltip .tooltiptext::before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #E11D48; /* Rose color */
+            clip-path: polygon(0 0, 70% 0,100% 100%, 100% 100%, 50% 50%);
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+            bottom: 100%;
+            transform: translateX(-50%) translateY(-8px);
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          
+
+          .react-time-picker__wrapper {
+            border: none;
+          }
+          .react-time-picker__inputGroup__input {
+            outline: none;
+          }
+
+
+          
