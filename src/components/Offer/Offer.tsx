@@ -30,7 +30,7 @@ const Offer = () =>
 
             <div   
             data-aos="fade-down"
-            data-aos-duration="1500"
+            data-aos-duration="500"
             data-aos-easing="linear"
             className='flex-1 flex flex-col justify-center items-center px-10 pt-16'>
                 <h1 className='text-white lg:text-5xl md:text-4xl text-3xl text-center font-bold mb-4 p-2'>Get the ultimate<br /> Flavor Explosion<br />at <span className='text-amber-600'>450/- Tk </span> </h1>
@@ -46,7 +46,7 @@ const Offer = () =>
 
             <div 
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="500"
             data-aos-easing="linear"
             className='flex-1 w-full relative'>
                 <Image src={offer_burger} alt='' fill className='object-contain' />

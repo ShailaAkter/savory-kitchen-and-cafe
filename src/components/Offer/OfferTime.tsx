@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 
 const OfferTime = () => 
 {
-  const [countdownTime, setCountdownTime] = useState(Date.now() + 580000000); // Set the initial countdown time (30 minutes in the future)
+  const [countdownTime, setCountdownTime] = useState(Date.now() + 180000000); // Set the initial countdown time (30 minutes in the future)
 
   // Start the countdown timer on the client side
   useEffect(() => {
@@ -32,7 +32,7 @@ const OfferTime = () =>
   };
 
   return (
-    <div className='font-bold lg:text-4xl text-3xl text-rose-600'>
+    <div className='font-bold lg:text-3xl text-2xl text-rose-600'>
       <Countdown date={countdownTime} renderer={renderer} />
     </div>
   );

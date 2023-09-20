@@ -27,7 +27,7 @@ const SignatureDish = () =>
             <div className='text-center pt-24 pb-10'>
                 <div 
                 data-aos="zoom-in"
-                data-aos-duration="1500">
+                data-aos-duration="500">
                     <h1 className='text-rose-600 lg:text-4xl md:text-3xl text-2xl font-bold'>Savory Signature Dish</h1>
                 </div>
 
@@ -36,7 +36,7 @@ const SignatureDish = () =>
                 <div
                 className='lg:w-1/2 md:w-1/2 w-full mx-auto'
                 data-aos="zoom-in"
-                data-aos-duration="1500">
+                data-aos-duration="500">
                     <p className='text-sm text-amber-950 mb-12'>Savor the exquisite flavors of our Chefs special signature dish, where culinary artistry meets the finest ingredients to create an unforgettable dining experience. You have to visit our restaurant to have our delicious signature dish.</p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const SignatureDish = () =>
                     {/* box 1 */}
                     <div 
                     data-aos="fade-down"
-                    data-aos-duration="1500"
+                    data-aos-duration="500"
                     className="w-full flex justify-center items-center">
                         <div className='flex justify-end items-center '>
                             <Image src={dish1} alt="Line" height={600}/>
@@ -60,7 +60,7 @@ const SignatureDish = () =>
                         <div className="flex-1 ">
                             <div 
                             data-aos="zoom-in"
-                            data-aos-duration="1500"
+                            data-aos-duration="500"
                             className="p-8 lg:text-left md:text-left text-center">
 
                                 <h2 className="lg:text-2xl text-xl text-rose-600 font-bold mb-6">
@@ -85,7 +85,7 @@ const SignatureDish = () =>
                         <div className="flex-1 lg:w-2/3 md:w-full">
                             <div 
                             data-aos="zoom-in"
-                            data-aos-duration="1500"
+                            data-aos-duration="500"
                             className="p-8 lg:text-right md:text-right text-center">
                                 <h2 className="lg:text-2xl text-xl text-rose-600 font-bold mb-6 ">
                                     Grilled Steak Fillet with Fresh Vegetable Salad
@@ -103,7 +103,7 @@ const SignatureDish = () =>
                     <div className="w-full">
                         <div 
                         data-aos="fade-up"
-                        data-aos-duration="1500"
+                        data-aos-duration="500"
                         className="w-full flex justify-center items-center">
                             <div className='flex justify-end items-center'>
                                 <Image src={dish2} alt="Line" height={800}/>

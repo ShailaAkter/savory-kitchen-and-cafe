@@ -19,6 +19,8 @@ type Product = {
       img: "/temporary/p1.png",
       price: 240.9,
       type:'popular',
+      category:"pizzas",
+
       options: [
         {
           title: "Small",
@@ -41,7 +43,7 @@ type Product = {
       img: "/temporary/p2.png",
       price: 290.9,
       type:'popular',
-  
+      category:"burgers",
       options: [
         {
           title: "Small",
@@ -63,6 +65,7 @@ type Product = {
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
       img: "/temporary/p3.png",
       price: 240.9,
+      category:"pizzas",
       options: [
         {
           title: "Small",
@@ -84,6 +87,8 @@ type Product = {
       desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
       img: "/temporary/p4.png",
       price: 260.9,
+      category:"pastas",
+
       options: [
         {
           title: "Small",
@@ -105,6 +110,8 @@ type Product = {
       desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
       img: "/temporary/p5.png",
       price: 290.9,
+      category:"burgers",
+
       options: [
         {
           title: "Small",
@@ -126,6 +133,7 @@ type Product = {
       desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
       img: "/temporary/p6.png",
       price: 240.9,
+      category:"pizzas",
       options: [
         {
           title: "Small",
@@ -148,7 +156,7 @@ type Product = {
       img: "/temporary/p7.png",
       price: 280.9,
       type:'popular',
-  
+      category:"pastas",
       options: [
         {
           title: "Small",
@@ -171,7 +179,7 @@ type Product = {
       img: "/temporary/p8.png",
       price: 320.9,
       type:'popular',
-  
+
       options: [
         {
           title: "Small",
@@ -193,6 +201,7 @@ type Product = {
       desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
       img: "/temporary/p9.png",
       price: 290.9,
+      
       options: [
         {
           title: "Small",
@@ -231,6 +240,102 @@ type Product = {
         },
       ],
     },
+    {
+      id: 11,
+      title: "Chocolate Cold Coffee",
+      desc: "Experience a taste of the tropics with a juicy full cream milk, rich Chocolate , coffee and icecream inside. Feel the difference our shakes and cold coffee items.",
+      img: "/temporary/c1.png",
+      price: 290.9,
+      category:"coffees",
+      type:'popular',
+  
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
+    {
+      id: 12,
+      title: "Chocolate Cold Coffee",
+      desc: "Experience a taste of the tropics with a juicy full cream milk, rich Chocolate , coffee and icecream inside. Feel the difference our shakes and cold coffee items.",
+      img: "/temporary/c1.png",
+      price: 290.9,
+      category:"coffees",
+      type:'popular',
+  
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
+    {
+      id: 13,
+      title: "Chocolate Cold Coffee",
+      desc: "Experience a taste of the tropics with a juicy full cream milk, rich Chocolate , coffee and icecream inside. Feel the difference our shakes and cold coffee items.",
+      img: "/temporary/c1.png",
+      price: 290.9,
+      category:"coffees",
+      type:'popular',
+  
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
+    {
+      id: 14,
+      title: "Chocolate Cold Coffee",
+      desc: "Experience a taste of the tropics with a juicy full cream milk, rich Chocolate , coffee and icecream inside. Feel the difference our shakes and cold coffee items.",
+      img: "/temporary/c1.png",
+      price: 290.9,
+      category:"coffees",
+      type:'popular',
+  
+      options: [
+        {
+          title: "Small",
+          additionalPrice: 0,
+        },
+        {
+          title: "Medium",
+          additionalPrice: 4,
+        },
+        {
+          title: "Large",
+          additionalPrice: 6,
+        },
+      ],
+    },
   ];
   
   
@@ -244,7 +349,8 @@ type Product = {
       img: "/temporary/p1.png",
       price: 240.9,
       type:'popular',
-  
+      category:"pizzas",
+
       options: [
         {
           title: "Small",
@@ -265,6 +371,7 @@ type Product = {
       title: "Mediterranean Delight",
       desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
       img: "/temporary/p8.png",
+      category:"pizzas",
       price: 320.9,
       options: [
         {
@@ -286,6 +393,8 @@ type Product = {
       title: "Bella Napoli",
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
       img: "/temporary/p3.png",
+      category:"pizzas",
+
       price: 260.9,
       options: [
         {
@@ -309,6 +418,8 @@ type Product = {
       img: "/temporary/p10.png",
       price: 280.9,
       type:'popular',
+      category:"pizzas",
+
       options: [
         {
           title: "Small",
@@ -330,6 +441,8 @@ type Product = {
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
       img: "/temporary/p11.png",
       price: 240.9,
+      category:"pizzas",
+
       options: [
         {
           title: "Small",
@@ -350,6 +463,8 @@ type Product = {
       title: "Four Cheese Fantasy",
       desc: "Experience pure cheesy bliss with a melty blend of mozzarella, cheddar, provolone, and Parmesan cheeses, creating a rich and indulgent pizza experience.",
       img: "/temporary/p12.png",
+      category:"pizzas",
+
       price: 220.9,
       type:'popular',
       options: [
@@ -375,6 +490,8 @@ type Product = {
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
     img: "/temporary/p1.png",
     price: 240.9,
+    category:"pizzas",
+
     options: [
       {
         title: "Small",
@@ -398,32 +515,40 @@ type Product = {
     title: string;
     desc?: string;
     img?: string;
-    color: string;
+    color?: string;
   }[];
   
   export const menu: Menu = [
     {
       id: 1,
-      slug: "pastas",
-      title: "Italian Pastas",
-      desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
-      img: "/temporary/m1.png",
-      color: "white",
-    },
-    {
-      id: 2,
       slug: "burgers",
       title: "Juicy Burgers",
       desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
-      img: "/temporary/m2.png",
+      img: "/temporary/burger.jpg",
+      color: "black",
+    },
+    {
+      id: 2,
+      slug: "pizzas",
+      title: "Cheesy Pizzas",
+      desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+      img: "/temporary/pizza.jpg",
       color: "black",
     },
     {
       id: 3,
-      slug: "pizzas",
-      title: "Cheesy Pizzas",
-      desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
-      img: "/temporary/m3.png",
-      color: "white",
+      slug: "pastas",
+      title: "Italian Pastas",
+      desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+      img: "/temporary/pasta.jpg",
+      color: "black",
     },
+    {
+      id: 4,
+      slug: "coffees",
+      title: "Cold Coffees",
+      desc: "ISavor the irresistible bliss of our cold coffee,a perfect blend of richness and refreshment",
+      img: "/temporary/coffee.jpg",
+      color: "black",
+    }
   ];

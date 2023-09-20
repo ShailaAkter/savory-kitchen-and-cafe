@@ -56,7 +56,7 @@ const Featured = () =>
 
                 <div 
                 data-aos="zoom-in"
-                data-aos-duration="1500">
+                data-aos-duration="500">
                     <h1 className='text-rose-600 lg:text-4xl md:text-3xl text-2xl font-bold'>Our Popular Items</h1>
                 </div>
 
@@ -65,7 +65,7 @@ const Featured = () =>
                 <div
                 className='lg:w-1/2 md:w-1/2 w-full mx-auto'
                 data-aos="zoom-in"
-                data-aos-duration="1500">
+                data-aos-duration="500">
                 <p className='text-sm text-amber-950 mb-2'>The food of Savory kitchen & Cafe are bustling with creativity, offering artisanal creations that delight taste buds. From gourmet pizzas topped with truffle-infused magic to loaded fries dripping with cheesy indulgence, these dishes redefine comfort food.</p>
                 </div>
           </div>
@@ -82,11 +82,11 @@ const Featured = () =>
             >
                 <div className='flex justify-center items-center'>
                     {
-                    featuredProducts.filter(item => item.type === 'popular').map(item=>
+                        featuredProducts.filter(item => item.type === 'popular').map(item=>
 
                         <SwiperSlide key={item.id}>
-                            <div className="flex-grow">
-                                <div className="lg:max-w-md md:max-w-sm rounded overflow-hidden shadow-lg my-20 lg:h-[560px]">
+                            <div className="flex flex-col">
+                                <div className="flex-grow lg:max-w-md md:max-w-sm rounded overflow-hidden shadow-lg my-20 ">
                                     {
                                         item.img && 
                                         <Image
