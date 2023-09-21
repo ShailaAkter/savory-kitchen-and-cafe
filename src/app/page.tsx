@@ -1,5 +1,6 @@
 import AboutUs from '@/components/AboutUs'
 import ContactUs from '@/components/ContactUs'
+import HomePageDelivery from '@/components/Delivery/HomePageDelivery'
 import Featured from '@/components/Featured'
 import Hero from '@/components/Hero/Hero'
 import Offer from '@/components/Offer/Offer'
@@ -15,6 +16,7 @@ export default function Home()
       <Hero/>
       <AboutUs/>
       <Featured/>
+      <HomePageDelivery/>
       <Offer/>
       <OurTeam/>
       <SignatureDish/>

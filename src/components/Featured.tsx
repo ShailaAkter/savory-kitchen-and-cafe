@@ -86,7 +86,7 @@ const Featured = () =>
 
                         <SwiperSlide key={item.id}>
                             <div className="flex flex-col">
-                                <div className="flex-grow lg:max-w-md md:max-w-sm rounded overflow-hidden shadow-lg my-20 ">
+                                <div className="flex-grow lg:max-w-md md:max-w-sm rounded overflow-hidden shadow-lg my-20 transition-transform transform hover:scale-105">
                                     {
                                         item.img && 
                                         <Image

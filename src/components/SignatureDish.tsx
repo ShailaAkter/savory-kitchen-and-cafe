@@ -67,7 +67,7 @@ const SignatureDish = () =>
                                     Savory Herb-Infused Angus Sirloin Dteak Delight
                                 </h2>
                                 <p  
-                                    className='text-sm text-amber-950 font-semibold'>
+                                    className='text-sm text-amber-950 font-semibold lg:pr-24'>
                                     A perfectly aged, prime sirloin steak is expertly seasoned with a secret blend of herbs and spices before being seared to a mouthwatering medium-rare perfection. The steak is then rested to allow its juices to redistribute, ensuring each bite is as tender as it is flavorful. Served with a side of garlic butter roasted asparagus and a loaded baked potato, this dish is the epitome of steakhouse elegance. The rich, savory flavors of the steak are enhanced by a drizzle of house-made steak sauce, making every bite a memorable culinary experience.
                                 </p>
                             </div>
@@ -91,7 +91,7 @@ const SignatureDish = () =>
                                     Grilled Steak Fillet with Fresh Vegetable Salad
                                 </h2>
                                 <p  
-                                className='text-sm text-amber-950 font-semibold'>
+                                className='text-sm text-amber-950 font-semibold lg:pl-24'>
                                 Savor the extraordinary with our Grilled Steak Fillet, skillfully prepared by Chef Sarah Turner. This succulent steak fillet, grilled to perfection, boasts a smoky char on the outside and tender, savory goodness within. Paired with a colorful medley of fresh, farm-to-table vegetables and our house-made zesty vinaigrette, this dish offers a symphony of flavors that will elevate your dining experience to new heights. 
                                 </p>
                             </div>

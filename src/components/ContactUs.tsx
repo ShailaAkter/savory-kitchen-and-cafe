@@ -53,14 +53,14 @@ const ContactUs = () =>
           <div 
             data-aos="zoom-in"
             data-aos-duration="800"
-          className="container my-24 mx-auto lg:px-6 md:px-8 px-2">
+          className="container my-24 mx-auto lg:px-6 md:px-8 px-2 ">
 
             <section className="mb-32 text-center ">
               <div className="py-10 md:px-10">
                 <div className="container mx-auto xl:px-32">
                   <div className="grid items-center lg:grid-cols-2">
                     <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0 ">
-                    <div className="relative z-[1] block rounded-lg opacity-90 bg-gray-50 shadow-sm shadow-zinc-800 md:px-12 lg:-mr-14 py-12">
+                    <div className="relative z-[1] block rounded-lg opacity-95 bg-gray-50 shadow-sm shadow-zinc-800 md:px-12 lg:-mr-14 py-12 ">
               <h2 className="text-3xl font-bold text-rose-600 mb-4">Contact Us</h2>
               {message && (
                 <p
@@ -120,7 +120,7 @@ const ContactUs = () =>
                     </div>
                     <div className=" md:mb-12 lg:block md:hidden hidden">
                       <div
-                        className="relative lg:h-[700px] md:h-[600px] h-[200px] rounded-lg shadow-lg dark:shadow-black/20">
+                        className="relative lg:h-[850px] md:h-[600px] h-[200px] rounded-lg shadow-lg dark:shadow-black/20">
                         <iframe
                           src="https://maps.google.com/maps?q=Dhaka, Bangladesh&z=13&ie=UTF8&iwloc=&output=embed"
                           className="absolute left-0 top-0 h-full w-full rounded-lg"
@@ -142,7 +142,7 @@ const ContactUs = () =>
               data-aos="zoom-in"
               data-aos-duration="1000"className=" py-10 md:mb-12 lg:hidden md:block sm:block">
               <div
-                className="lg:h-[700px] md:h-[400px] h-[200px] rounded-lg shadow-lg dark:shadow-black/20">
+                className="lg:h-[800px] md:h-[400px] h-[200px] rounded-lg shadow-lg dark:shadow-black/20">
                 <iframe
                   src="https://maps.google.com/maps?q=Dhaka, Bangladesh&z=13&ie=UTF8&iwloc=&output=embed"
                   className=" h-full w-full rounded-lg"

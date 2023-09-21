@@ -32,7 +32,7 @@ const Menu = () =>
                   }
                 </div>
                 <div>
-                  <Link href="/about" 
+                  <Link  href={`/menu/${category.slug}`}
                       className="inline-flex items-center mx-auto lg:mx-0 justify-center py-0 h-10 px-4 font-semibold text-center text-rose-600 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-rose-600 border-solid rounded-lg cursor-pointer select-none hover:bg-rose-600 hover:text-white focus:shadow-xs focus:no-underline my-6">
                           Order Now
                   </Link>
@@ -72,7 +72,7 @@ const Menu = () =>
                 </div>
             </div>
 
-            {/* others */}
+            {/* Lunch Meal */}
             <div className="bg-white bg-opacity-90 overflow-hidden shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-md 
               flex flex-col">
                 <div className='p-1 flex-grow '>

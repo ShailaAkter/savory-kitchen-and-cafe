@@ -1,9 +1,12 @@
+import ContainerBox from '@/components/ContainerBox'
 import React from 'react'
 
 const SingleProduct = () => 
 {
   return (
-    <div>SingleProduct</div>
+    <ContainerBox>
+      
+    </ContainerBox>
   )
 }
 
