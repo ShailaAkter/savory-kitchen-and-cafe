@@ -60,7 +60,7 @@ const Category = () =>
                                             <div className="flex justify-end">
                                                 <Link href={`/product/${item.id}`}
                                                 className="inline-flex items-center mx-auto lg:mx-0 justify-center py-0 h-11 px-4 font-semibold text-center text-rose-600 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-rose-600 border-solid rounded-lg cursor-pointer select-none hover:bg-rose-600 hover:text-white focus:shadow-xs focus:no-underline my-6">
-                                                    Add to Cart
+                                                    View Details
                                                 </Link>
                                             </div>
                                     </div>
