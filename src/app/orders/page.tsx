@@ -1,5 +1,7 @@
 import ContainerBox from '@/components/ContainerBox';
 import React from 'react';
+import { FaUtensils, FaWineGlassAlt, FaClock } from 'react-icons/fa';
+
 
 const Orders = () => {
   return (
