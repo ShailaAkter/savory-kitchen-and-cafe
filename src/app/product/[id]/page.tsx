@@ -18,8 +18,8 @@ const SingleProduct = () =>
           )
         }
 
-        <div className='h-1/2 flex flex-col gap-4 lg:px-24 py-2 md:px-4'>
-          <h1 className='text-3xl font-bold uppercase pb-2'>{singleProduct.title}</h1>
+        <div className='h-1/2 flex flex-col gap-4 lg:px-24 py-2 md:px-4 text-sm'>
+          <h1 className='lg:text-2xl md:text-2x text-xl font-bold uppercase pb-2'>{singleProduct.title}</h1>
           <p className='text-amber-950'>{singleProduct.desc}</p>
           <Price price= {singleProduct.price}
                  id = {singleProduct.id}

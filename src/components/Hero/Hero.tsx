@@ -52,6 +52,13 @@ const Hero = () =>
                 </div>
 
                 <div className='flex justify-center items-center'>
+                    <Link href="/menu/burger" 
+                    data-aos="fade-down"
+                    data-aos-duration="800" 
+                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
+                        <span className='tooltiptext'>Cheesy Pasta</span>                  
+                        <Image src={burger} alt='' className=''  width={40} height={40}/>
+                    </Link>
                     <Link href="/menu/pizza" 
                     data-aos="fade-down"
                     data-aos-duration="800" 
@@ -64,13 +71,6 @@ const Hero = () =>
                     data-aos-duration="800" 
                     className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
                         <span className='tooltiptext'>Juicy Burger</span>
-                        <Image src={burger} alt='' className=''  width={40} height={40}/>
-                    </Link>
-                    <Link href="/menu/burger" 
-                    data-aos="fade-down"
-                    data-aos-duration="800" 
-                    className='p-1 m-1 border-2 border-transparent hover:border-rose-600 rounded-md tooltip'>
-                        <span className='tooltiptext'>Cheesy Pasta</span>                  
                         <Image src={pasta} alt='' className=''  width={40} height={40}/>
                     </Link>
                     <Link href="/menu/coffee" 
@@ -106,7 +106,7 @@ const Hero = () =>
                     data-aos-easing="linear"
                     data-aos-duration="1500">
                     <BsTelephoneFill/>
-                    <p className='p-1 text-xl font-bold '>+880 1783 875008</p>
+                    <p className='p-1 text-xl font-bold '>+880 123 456 789</p>
                     </div>
                 </motion.div>
 

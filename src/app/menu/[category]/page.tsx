@@ -14,7 +14,7 @@ const Category = () =>
     <ContainerBox>
         <div className='bg-gradient-to-r from-amber-600 to-rose-600'>
             <Marquee direction="right" speed={100} className="py-1">
-                <p className='text-white font-semibold text-sm'>Now get <span className='font-bold text-lg'>50% OFF</span> on 3rd Order. This offer is for limited time. Grab the offer.</p>
+                <p className='text-white font-semibold text-sm'>Now get <span className='font-bold text-lg'>50% OFF</span> on 3rd Order. Apply Promo code FOOD50 to get this limited offer.</p>
             </Marquee>
         </div>
 

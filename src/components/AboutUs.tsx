@@ -83,10 +83,10 @@ const AboutUs = () =>
                         data-aos-duration="500">
                         Established with a singular vision of culinary excellence, Savory Kitchen Cafe has evolved into a gastronomic sanctuary renowned for its exceptional dining experience. Our journey commenced with the culinary aspirations of our founder, Emily. Inspired by her passion for exceptional cuisine, Emily envisioned a haven where patrons could indulge in exquisite dishes within an inviting atmosphere. <br /><br />
 
-                        At Savory Kitchen Cafe, our carefully curated team of culinary and hospitality experts shares a collective dedication to...
+                        At Savory Kitchen Cafe, our carefully curated team of culinary and hospitality experts shares a collective dedication to creating an unforgettable dining experience that transcends the ordinary and embraces the extraordinary.
                     </p>
 
-                    <Link href="/about" 
+                    <Link href="#about" 
                         data-aos="fade-up"
                         data-aos-duration="500"
                         className="inline-flex items-center mx-auto lg:mx-0 justify-center lg:h-14 lg:px-7 py-0 h-11 px-5 font-semibold text-center text-rose-600 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-rose-600 border-solid lg:rounded-2xl rounded-lg cursor-pointer select-none hover:bg-rose-600 hover:text-white focus:shadow-xs focus:no-underline my-6">
