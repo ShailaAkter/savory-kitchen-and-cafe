@@ -6,6 +6,7 @@ import menuCloseBar from "../../../public/assets/icons/menuCloseBar.png"
 import Link from 'next/link';
 import {motion} from 'framer-motion'
 import CartIcon from './CartIcon';
+import { menu } from '@/data';
 
 const MobileMenu = () => 
 {
@@ -13,9 +14,6 @@ const MobileMenu = () =>
     const links =
     [
     {id:1, title: "Home", url:"/"},
-    {id:2, title: "Menu", url:"/menu"},
-    {id:3, title: "About", url:"/about"},
-    {id:4, title: "Contact", url:"/contact"},
     ];
 
     const [open, setOpen] = useState(false);
@@ -51,6 +49,21 @@ const MobileMenu = () =>
                     </motion.div>
                     </Link>)
                 }
+                {
+                    menu.map((category) => (
+                    <Link
+                    href={`/menu/${category.slug}`}
+                    key={category.id}
+                    onClick={()=>setOpen(false)}
+                    className='hover:text-rose-200'>
+                    <motion.div 
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }}>
+                        {category.slug}
+                    </motion.div>
+                    </Link>
+                ))}
 
                 {
                     !user?

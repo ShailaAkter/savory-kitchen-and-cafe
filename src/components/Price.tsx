@@ -23,14 +23,14 @@ const Price = ({price, id, options}:Props) =>
 
   return (
     <div className='flex flex-col gap-4 py-10'>
-        <h2 className='text-2xl font-bold'>TK {totalPrice.toFixed(2)}</h2>
+        <h2 className='text-xl font-bold py-2'>TK {totalPrice.toFixed(2)}</h2>
 
         <div className='flex gap-4'>
             {
                 options?.map((option, index) =>
                     (
                         <button 
-                        className='min-w-[6rem] p-2 ring-2 font-semibold ring-rose-600 rounded hover:bg-rose-600 hover:text-white'
+                        className='min-w-[6rem] p-2 ring-2 font-semibold ring-rose-600 rounded hover:bg-rose-600 hover:text-white text-sm'
                         style={{
                             background: selected === index? "#e11d48" : "white",
                             color: selected === index? "white" :"#e11d48"
@@ -44,16 +44,16 @@ const Price = ({price, id, options}:Props) =>
         </div>
 
         <div className='flex justify-between items-center'>
-            <div className='flex justify-between w-full p-3 ring-2 ring-rose-600 rounded-s my-2'>
-                <span className='text-zinc-400'>Quantity</span>
-                <div className='font-semibold'>
+            <div className='flex justify-between w-1/2 p-3 ring-2 ring-rose-600 rounded my-2'>
+                <span className='text-zinc-400 text-sm'>Quantity</span>
+                <div className='font-semibold text-sm'>
                     <button   onClick={() => setQuantity((prev) => (prev > 1 ? prev - 1 : 1))} className='px-1'>{'-'}</button>
                     <span className='px-1'>{quantity}</span>
                     <button  onClick={() => setQuantity((prev) => (prev < 15 ? prev + 1 : 15))} className='px-1 '>{'+'}</button>
                 </div>
             </div>
-            <button className='w-48 font-semibold bg-rose-600 text-white p-3 ring-2 ring-rose-600 rounded-e hover:bg-gradient-to-r from-amber-600 to-rose-600'>Add to Cart</button>
         </div>
+        <button className='w-48 font-semibold bg-rose-600 text-white p-3 ring-2 ring-rose-600 rounded hover:bg-rose-700'>Add to Cart</button>
 
 
 

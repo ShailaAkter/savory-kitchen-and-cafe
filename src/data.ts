@@ -521,7 +521,7 @@ type Product = {
   export const menu: Menu = [
     {
       id: 1,
-      slug: "burgers",
+      slug: "Burger",
       title: "Juicy Burgers",
       desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
       img: "/temporary/burger.jpg",
@@ -529,7 +529,7 @@ type Product = {
     },
     {
       id: 2,
-      slug: "pizzas",
+      slug: "Pizza",
       title: "Cheesy Pizzas",
       desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
       img: "/temporary/pizza.jpg",
@@ -537,7 +537,7 @@ type Product = {
     },
     {
       id: 3,
-      slug: "pastas",
+      slug: "Pasta",
       title: "Italian Pastas",
       desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
       img: "/temporary/pasta.jpg",
@@ -545,7 +545,7 @@ type Product = {
     },
     {
       id: 4,
-      slug: "coffees",
+      slug: "Coffee",
       title: "Cold Coffees",
       desc: "ISavor the irresistible bliss of our cold coffee,a perfect blend of richness and refreshment",
       img: "/temporary/coffee.jpg",

@@ -23,7 +23,7 @@ const OurTeam = () =>
 
   return (
     <ContainerBox>
-        <div className="flex flex-col justify-center items-center lg:flex-row lg:text-left md:text-center text-center lg:w-2/3 md:w-full mx-auto overflow-hidden py-20">
+        <div id='about' className="flex flex-col justify-center items-center lg:flex-row lg:text-left md:text-center text-center lg:w-2/3 md:w-full mx-auto overflow-hidden py-20">
         
             <div 
             data-aos="zoom-in-down"

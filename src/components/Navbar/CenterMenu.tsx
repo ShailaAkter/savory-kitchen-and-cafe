@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { usePathname } from 'next/navigation'
 import Link from "next/link";
+import { menu } from "@/data";
 
 
 
@@ -11,9 +12,6 @@ const CenterMenu = () =>
     const links =
     [
       {id:1, title: "Home", url:"/"},
-      {id:2, title: "Menu", url:"/menu"},
-      {id:3, title: "About", url:"/about"},
-      {id:4, title: "Contact", url:"/contact"},
     ];
 
     const [open, setOpen] = useState(false);
@@ -34,7 +32,18 @@ const CenterMenu = () =>
             onClick={()=>setOpen(false)}>
                 {item.title}
             </Link>)
+           
         }
+        {
+        menu.map((category) => (
+        <Link
+          href={`/menu/${category.slug}`}
+          key={category.id}
+          className={`${currentRoute === `/menu/${category.slug}`? 'border-b-2 border-rose-800 text-rose-800 py-1': ''} hover:text-rose-800 py-1`}
+          onClick={()=>setOpen(false)}>
+              {category.slug}
+          </Link>
+      ))}
 
     </div>
   )
